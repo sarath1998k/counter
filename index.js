@@ -19,6 +19,7 @@ function saved(){
 }
 function reset(){
     count=0;
+    savednum=0;
     countel.innerText=0;
     document.getElementById("saved").innerText=0;
 }
