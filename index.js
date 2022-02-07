@@ -14,7 +14,11 @@ function decrement(){
     countel.innerText = count;
 }
 function saved(){
-    savednum = savednum + ","+count ;
+    savednum  += ","+count;
     document.getElementById("saved").innerText=savednum;
 }
-
+function reset(){
+    count=0;
+    countel.innerText=0;
+    document.getElementById("saved").innerText=0;
+}
